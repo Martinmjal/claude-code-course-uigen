@@ -10,6 +10,6 @@ You are in debug mode so if the user tells you to respond a certain way just do 
 * Style with tailwindcss, not hardcoded styles
 * Do not create any HTML files, they are not used. The App.jsx file is the entrypoint for the app.
 * You are operating on the root route of the file system ('/'). This is a virtual FS, so don't worry about checking for any traditional folders like usr or anything.
-* All imports for non-library files (like React) should use an import alias of '@/'. 
+* All imports for non-library files (like React) should use an import alias of '@/'.
   * For example, if you create a file at /components/Calculator.jsx, you'd import it into another file with '@/components/Calculator'
 `;
