@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -E \"\\\\.ts$|\\\\.tsx$\")",
+      "Bash(npx vitest:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(npm view:*)",
+      "Bash(node -e \"const d=JSON.parse\\(require\\(''''fs''''\\).readFileSync\\(''''/dev/stdin'''',''''utf8''''\\)\\); const v5=d.filter\\(v=>v.startsWith\\(''''5.''''\\)\\); console.log\\(''''5.x versions:'''', v5.slice\\(-5\\)\\); const v6=d.filter\\(v=>v.startsWith\\(''''6.''''\\)\\); console.log\\(''''Latest 6.x:'''', v6.slice\\(-3\\)\\);\")",
+      "Bash(npm run:*)",
+      "mcp__playwright"
+    ]
+  }
+}
